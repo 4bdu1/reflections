@@ -4,11 +4,32 @@ Git Tree
 	- Git operations on commits and repository
 		- Commit operations
 			- git log  -- view commit history of git repository
+			  - git log -n 1 - show just one commit(latest)
 			- git diff -- view differences between two commits or changes in current file
-		
+							- view difference between files in working directory and staging area
+			- git diff --staged -- view difference between files in staging area and current commit in repository
+			
+			- git log --graph --oneline master anotherBranch
+				- Visualize commit tree between different branches
+				
+			- git merge  -- merge two branches together
+			
+			- git show #id --show difference between a commit and its parent
+			
+			- git branch -- show current branches in repository
+			- git branch nameofBranch -- create new branch with name nameofBranch
+			
+			- git checkout nameofBranch -- checkout new branch
+			
+			
 		- Repository operations
 			- git clone -- copy a git repository with all commit histories
 			- git init  -- initialize a git repository
+			
+			
+		
+		- git reset --hard -- discard changes in working and staging area
+		
 		
 		Staging Area
 		 - part of git
