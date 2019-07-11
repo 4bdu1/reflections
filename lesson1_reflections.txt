@@ -1,0 +1,27 @@
+Lessons
+- diff command on linux/mac to compare the difference between two files.
+- fc command on windows to compare the difference between two files
+
+- Git
+	- Version Control
+	
+	Tree
+	- Has a repository
+	- Repository has commits
+	- Git operations on commits and repository
+		- Commit operations
+			- git log  -- view commit history of git repository
+			- git diff -- view differences between two commits or changes in current file
+		
+		- Repository operations
+			- git clone -- copy a git repository with all commit histories
+	
+  Set up Git Workspace
+	git config --global push.default upstream
+	git config --global merge.conflictsyle diff3
+	
+	copy git-completion.bash, git-prompt.sh, bash_profile_course file to home directory
+	
+	rename bash_profile_course to .bash_profile and configure as required
+  
+	
