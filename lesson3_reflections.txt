@@ -1,0 +1,20 @@
+Relationship: Git is a part of GitHub
+GitHub
+	- Creating repo on GitHub
+	- Adding remote repositories with "git remote add"
+		- Using git push and git pull to push changes and pull changes from repo.
+	- Forking a repository is a way of creating a copy of a another github repo on github
+		- Basically a clone on github servers with a reference to the original repository
+		
+		
+Git
+	- git fetch -- to update local copy of remote branch
+	- git merge -- join two branches
+	
+	fast-forward merge occurs when branch to merge has history of its ancestor node/branch 
+	pull request
+		- this is done to merge changes on a different branch into master on GitHub
+
+	creating multiple remotes after forking a repo
+		- this helps to pull in new changes for original repo while working on local changes
+		- also helps to solve merge conflicts when there is a need to a make a pull request to the original repo
